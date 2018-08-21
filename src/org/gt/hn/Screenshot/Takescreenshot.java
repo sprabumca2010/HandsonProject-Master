@@ -23,7 +23,7 @@ public class Takescreenshot {
 		TakesScreenshot tk = (TakesScreenshot)driver;
 		File f =tk.getScreenshotAs(outputType.FILE);
 		System.out.println(f);
-		FileUtils.copyFile(f, dest);
+		FileUtils.copyFile(f, dest)
 		
 		
 	}
